@@ -1,0 +1,321 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "border": {
+            "color": false,
+            "radius": false,
+            "style": false,
+            "width": false
+        },
+        "color": {
+            "text": true,
+            "background": false,
+            "link": false,
+            "custom": true,
+            "customDuotone": false,
+            "customGradient": false,
+            "defaultGradients": false,
+            "defaultPalette": false,
+            "duotone": [],
+            "gradients": [],
+            "palette": [
+                {
+                    "name": "JT Primary",
+                    "slug": "jt-primary",
+                    "color": "#133E35"
+                },
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Gray 900",
+                    "slug": "gray-900",
+                    "color": "#666666"
+                },
+                {
+                    "name": "Gray 800",
+                    "slug": "gray-800",
+                    "color": "#888888"
+                },
+                {
+                    "name": "Gray 700",
+                    "slug": "gray-700",
+                    "color": "#999999"
+                },
+                {
+                    "name": "Gray 600",
+                    "slug": "gray-600",
+                    "color": "#AAAAAA"
+                },
+                {
+                    "name": "Gray 500",
+                    "slug": "gray-500",
+                    "color": "#BBBBBB"
+                },
+                {
+                    "name": "Gray 400",
+                    "slug": "gray-400",
+                    "color": "#DDDDDD"
+                },
+                {
+                    "name": "Gray 300",
+                    "slug": "gray-300",
+                    "color": "#EEEEEE"
+                },
+                {
+                    "name": "Gray 200",
+                    "slug": "gray-200",
+                    "color": "#F4F4F4"
+                },
+                {
+                    "name": "Gray 100",
+                    "slug": "gray-100",
+                    "color": "#F8F8F8"
+                }
+            ]
+        },
+        "dimensions": {
+            "minHeight": false
+        },
+        "layout": {
+            "contentSize": "902px"
+        },
+        "position": {
+            "sticky": false
+        },
+        "spacing": {
+            "blockGap": true,
+            "margin": false,
+            "padding": false,
+            "units": [ "px", "%" ],
+            "customSpacingSize": false,
+            "spacingSizes": [
+                {
+                    "slug": "jt-xxxsmall",
+                    "size": "16px",
+                    "name": "XXXS (16px)"
+                },
+                {
+                    "slug": "jt-xxsmall",
+                    "size": "24px",
+                    "name": "XXS (24px)"
+                },
+                {
+                    "slug": "jt-xsmall",
+                    "size": "28px",
+                    "name": "XS (28px)"
+                },
+                {
+                    "slug": "jt-small",
+                    "size": "32px",
+                    "name": "S (32px)"
+                },
+                {
+                    "slug": "jt-medium",
+                    "size": "36px",
+                    "name": "M (36px)"
+                },
+                {
+                    "slug": "jt-large",
+                    "size": "40px",
+                    "name": "L (40px)"
+                },
+                {
+                    "slug": "jt-xlarge",
+                    "size": "48px",
+                    "name": "XL (48px)"
+                },
+                {
+                    "slug": "jt-xxlarge",
+                    "size": "60px",
+                    "name": "XXL (60px)"
+                },
+                {
+                    "slug": "jt-xxxlarge",
+                    "size": "80px",
+                    "name": "XXXL (80px)"
+                }
+            ]
+        },
+        "shadow": {
+            "defaultPresets": false
+        },
+        "typography": {
+            "fluid": false,
+            "customFontSize": false,
+            "fontStyle": false,
+            "fontWeight": false,
+            "letterSpacing": false,
+            "lineHeight": false,
+            "textDecoration": false,
+            "textTransform": false,
+            "dropCap": false,
+            "fontFamilies": [
+                {
+					"fontFamily": "\"Pretendard\", sans-serif",
+					"name": "Pretendard",
+					"slug": "pretendard",
+					"fontFace": [
+						{
+							"fontFamily": "Pretendard",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Pretendard/woff2-subset/Pretendard-Regular.subset.woff2" ]
+						},
+						{
+							"fontFamily": "Pretendard",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Pretendard/woff2-subset/Pretendard-Medium.subset.woff2" ]
+						}
+					]
+				},{
+					"fontFamily": "\"Zenith\", serif",
+					"name": "Zenith",
+					"slug": "Zenith",
+					"fontFace": [
+						{
+							"fontFamily": "Zenith",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/Zenith/Zenith-Regular.woff2" ]
+						}
+					]
+				},{
+					"fontFamily": "\"TheFuture\", sans-serif",
+					"name": "TheFuture",
+					"slug": "TheFuture",
+					"fontFace": [
+						{
+							"fontFamily": "TheFuture",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./fonts/TheFuture/the-future-medium.woff2" ]
+						}
+					]
+				}
+            ],
+            "fontSizes": [
+                {
+					"name": "Typography 01",
+					"slug": "jt-01",
+					"size": "60px"
+				},
+				{
+					"name": "Typography 02",
+					"slug": "jt-02",
+					"size": "48px"
+				},
+				{
+					"name": "Typography 03",
+					"slug": "jt-03",
+					"size": "36px"
+				},
+				{
+					"name": "Typography 04",
+					"slug": "jt-04",
+					"size": "30px"
+				},
+				{
+					"name": "Typography 05",
+					"slug": "jt-05",
+					"size": "26px"
+				},
+                {
+					"name": "Typography 06",
+					"slug": "jt-06",
+					"size": "22px"
+				},
+				{
+					"name": "Typography 07",
+					"slug": "jt-07",
+					"size": "18px"
+				},
+				{
+					"name": "Typography 08",
+					"slug": "jt-08",
+					"size": "15px"
+				}
+            ]
+        },
+        "custom": {},
+        "blocks": {
+            "core/group": {
+                "color": {
+                    "background": false,
+                    "text": false
+                },
+                "spacing": {
+                    "margin": false,
+                    "padding": false,
+                    "blockGap": false
+                }
+            },
+            "core/buttons": {
+                "spacing": {
+                    "blockGap": false
+                }
+            },
+            "core/button": {
+                "border": {
+                    "radius": false
+                },
+                "color": {
+                    "text": false,
+                    "background": false
+                }
+            },
+            "core/separator": {
+                "color": {
+                    "background": true,
+                    "defaultGradients": false,
+                    "defaultPalette": false
+                }
+            },
+            "core/gallery": {
+                "spacing": {
+                    "blockGap": false,
+                    "margin" : false
+                }
+            }
+        }
+    },
+    "styles": {
+        "typography": {
+			"fontFamily": "var(--wp--preset--font-family--pretendard)"
+		},
+        "color": {
+            "background": "var(--wp--preset--color--white)",
+            "text": "var(--wp--preset--color--black)"
+        },
+        "spacing": {
+            "blockGap": "var(--wp--preset--spacing--jt-medium)"
+        },
+        "blocks": {
+			"core/post-title": {
+				"typography": {
+                    "fontFamily": "var(--wp--preset--font-family--pretendard)",
+					"fontSize": "var(--wp--preset--font-size--jt-01)",
+					"lineHeight": "62px",
+					"fontWeight": "700"
+				},
+                "color": {
+                    "background": "var(--wp--preset--color--white)",
+                    "text": "var(--wp--preset--color--black)"
+                }
+			}
+		}
+    }
+}

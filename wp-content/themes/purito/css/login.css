@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/*
+ * File       : login.css
+ * Author     : STUDIO-JT (NICO)
+ *
+ * SUMMARY:
+ * VARIABLE 
+ * LOGIN
+ * MEDIAQUERIES
+ */
+
+
+
+/* **************************************** *
+ * VARIABLE
+ * **************************************** */
+@import 'var.css';
+
+
+
+/* **************************************** *
+ * LOGIN
+ * **************************************** */
+.login h1 a { width: 160px; height: 75px; background-image: url(../images/layout/logo.svg); background-size: 160px auto; }
+.wp-core-ui .button-primary { text-shadow: none; background: var(--color-primary); border-color: var(--color-primary); -webkit-box-shadow: none; box-shadow: none; }
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary.hover,
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:active { background: var(--color-primary); border-color: var(--color-primary); box-shadow: none; transition: background .5s; }
+input[type=text]:focus,
+input[type=search]:focus,
+input[type=radio]:focus,
+input[type=tel]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+input[type=password]:focus,
+input[type=checkbox]:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+select:focus,
+textarea:focus { border-color: var(--color-primary); box-shadow: 0 0 0 1px var(--color-primary); }
+a:focus { -webkit-box-shadow: none; box-shadow: none }
+#login { width: 100%; max-width: 380px; }
+p#nav { float: left; }
+p#backtoblog { float: right; }
+.login #backtoblog,
+.login #nav { display: block; float: right; clear: none; width: 50%; margin: 10px 0px; padding: 10px; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.login #backtoblog a:hover,
+.login #nav a:hover, .login h1 a:hover { color: var(--color-primary); }
+.login #backtoblog { text-align: left; } 
+.login #nav { text-align: right; }
+.login .language-switcher { display: none; }
+.login .privacy-policy-page-link { display: none; }
+
+
+
+/* **************************************** *
+ * MEDIAQUERIES
+ * **************************************** */
+@media (max-width: 540px){
+
+    #login { max-width: 320px; }
+    
+}

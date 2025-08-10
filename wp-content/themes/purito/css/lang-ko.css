@@ -1,0 +1,517 @@
+@charset "utf-8";
+
+/*
+ * File       : lang-ko.css
+ * Author     : STUDIO-JT (HREE)
+ *
+ * SUMMARY:
+ * Typography
+ * JT strap
+ * Layout
+ * Main
+ * Product
+ * Brandstory
+ * Create me
+ * Blocks
+ * RWD
+ */
+
+
+
+/* **************************************** *
+ * Typography
+ * **************************************** */
+html[lang="ko-KR"] .jt-typo--01:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-01); line-height: var(--font-lineheight-ko-01); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--02:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-02); line-height: var(--font-lineheight-ko-02); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--03:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-03); line-height: var(--font-lineheight-ko-03); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--04:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-04); line-height: var(--font-lineheight-ko-04); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--05:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--06:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-06); line-height: var(--font-lineheight-ko-06); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--07:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-07); line-height: var(--font-lineheight-ko-07); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--08:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-08); line-height: var(--font-lineheight-ko-08); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--09:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-09); line-height: var(--font-lineheight-ko-09); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--10:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-10); line-height: var(--font-lineheight-ko-10); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--11:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-11); line-height: var(--font-lineheight-ko-11); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--12:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-12); line-height: var(--font-lineheight-ko-12); font-weight: 400; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--13:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-13); line-height: var(--font-lineheight-ko-13); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--14:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-14); line-height: var(--font-lineheight-ko-14); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--15:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-15); line-height: var(--font-lineheight-ko-15); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-typo--16:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-16); line-height: var(--font-lineheight-ko-16); font-weight: 400; letter-spacing: var(--letter-spacing-ko); }
+
+
+
+/* **************************************** *
+ * JT strap
+ * **************************************** */
+html[lang="ko-KR"] .jt-btn__basic:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--medium:not([lang="en"]) { font-size: var(--font-size-ko-06); line-height: var(--font-lineheight-ko-06); }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--medium:not([lang="en"]) > .jt-icon { margin-top: 13rem; }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--small:not([lang="en"]) { font-size: var(--font-size-ko-07); line-height: var(--font-lineheight-ko-07); }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--simple:not([lang="en"]) { font-size: var(--font-size-ko-14); line-height: var(--font-lineheight-ko-14); }
+html[lang="ko-KR"] .jt-btn__basic:before, 
+html[lang="ko-KR"] .jt-btn__basic:after { font-family: var(--font-primary); font-weight: 400; font-size: inherit; }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--small:before, 
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--small:after { font-size: var(--font-size-07); }
+html[lang="ko-KR"] .jt-btn__basic > .jt-icon { margin-top: 17rem; margin-left: 16rem; }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--small > .jt-icon { margin-top: 8rem; margin-left: 12rem; }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--simple > .jt-icon { margin-top: 5rem; margin-left: 8rem; }
+html[lang="ko-KR"] .jt-btn__basic.jt-btn--simple .jt-btn__simple-circle { margin-top: 5rem; }
+
+html[lang="ko-KR"] .jt-category-nav ul > li a:not([lang="en"]) { padding: 8rem 31rem 7rem; }
+html[lang="ko-KR"] .jt-category-nav ul > li a:not([lang="en"]) span:not([lang="en"]) { font-family: var(--font-tertiary); font-size: var(--font-size-ko-14); line-height: var(--font-lineheight-ko-14); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+
+html[lang="ko-KR"] .product-list__sorting .choices__inner { font-family: var(--font-tertiary); font-size: var(--font-size-ko-14); line-height: var(--font-lineheight-ko-14); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .choices__list--dropdown .choices__item, .choices__list[aria-expanded] .choices__item { font-family: var(--font-tertiary); font-size: var(--font-size-ko-15); line-height: var(--font-lineheight-ko-15); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+
+html[lang="ko-KR"] .jt-loadmore__btn > span { font-family: var(--font-tertiary); font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-loadmore__btn > span:before, 
+html[lang="ko-KR"] .jt-loadmore__btn > span:after { font-family: var(--font-primary); font-weight: 400; font-size: var(--font-size-05); line-height: var(--font-lineheight-05); }
+html[lang="ko-KR"] .jt-loadmore__count { font-family: var(--font-primary); }
+
+html[lang="ko-KR"] .choices__list--single .choices__item { font-family: var(--font-tertiary); font-weight: 500; }
+html[lang="ko-KR"].mobile .jt-choices__wrap > select { font-family: var(--font-tertiary); font-weight: 500; }
+
+
+
+/* **************************************** *
+ * Layout
+ * **************************************** */
+html[lang="ko-KR"] #menu > li > .sub-menu-container > ul > li > a { font-family: var(--font-tertiary); font-size: var(--font-size-ko-14); line-height: var(--font-lineheight-ko-14); font-weight: 500; letter-spacing: var(--letter-spacing-ko);  }
+html[lang="ko-KR"] #menu > li > .sub-menu-container > ul > li > ul > li > a { font-family: var(--font-tertiary); font-size: var(--font-size-ko-15); line-height: var(--font-lineheight-ko-15); font-weight: 500; letter-spacing: var(--letter-spacing-ko); }
+
+html[lang="ko-KR"] .search-modal__field,
+html[lang="ko-KR"] .search-result-form__field,
+html[lang="ko-KR"] .search-result-form__field-wrap { font-family: var(--font-tertiary); font-size: var(--font-size-ko-07); line-height: var(--font-lineheight-ko-07); font-weight: 500; }
+html[lang="ko-KR"] .search-result__info { max-width: none; }
+html[lang="ko-KR"] .search-result__info span.search-word { max-width: 45%; display: inline-block; vertical-align: middle; }
+
+
+
+/* **************************************** *
+ * Main
+ * **************************************** */
+html[lang="ko-KR"] .main-ingredient__title--highlight > i { bottom: 20rem; height: 48rem; }
+html[lang="ko-KR"] .main-ingredient__slider-index-title:after { margin-left: 26rem; top: -7rem; }
+html[lang="ko-KR"] .main-ingredient__txt { bottom: 42rem; }
+
+html[lang="ko-KR"] .main-line__banner-desc { margin-top: 24rem; }
+html[lang="ko-KR"] .main-line__banner-content .jt-btn__basic { margin-top: 47rem; }
+
+html[lang="ko-KR"] .main-skincare__content .jt-btn__basic { margin-top: 32rem; }
+html[lang="ko-KR"].ios .main-ingredient__colgroup > * { transform: translateZ(0); -webkit-mask-image: -webkit-radial-gradient(white, black); will-change: transform; overflow: hidden; border-radius: 12rem }
+
+html[lang="ko-KR"] .main-brandstory__desc.jt-typo--07 .main-brandstory__desc-en { font-family: var(--font-primary); font-size: var(--font-size-07); line-height: var(--font-lineheight-07); font-weight: 400; letter-spacing: var(--letter-spacing); }
+
+
+
+/* **************************************** *
+* Product
+* **************************************** */ 
+html[lang="ko-KR"] .product-single__effect > li:before { top: 11rem; }
+html[lang="ko-KR"] .product-single__features-txt > li:nth-child(1) { margin-top: -66rem }
+html[lang="ko-KR"] .product-single__features-txt > li:nth-child(2) { margin-top: -223rem }
+html[lang="ko-KR"] .product-single__features-txt > li:nth-child(3) { margin-top: 91rem }
+html[lang="ko-KR"] .product-single__diagram .product-single__component-title { margin-bottom: 92rem; }
+html[lang="ko-KR"] .product-single__diagram-caption { margin-top: 85rem; }
+html[lang="ko-KR"] .product-single__diagram-check-list .jt-icon { top: 5rem; }
+html[lang="ko-KR"] .product-single__diagram-circle-inner > b small { font-size: var(--font-size-ko-08); line-height: var(--font-lineheight-ko-08); }
+html[lang="ko-KR"] .product-single__itemize-images-key-list > li > span:after { bottom: 32rem; }
+html[lang="ko-KR"] .product-single__itemize-images-value ul > li:before { top: 16rem; }
+html[lang="ko-KR"] .product-single__proven-value-list > li:before { top: 20rem;}
+html[lang="ko-KR"] .product-single__proven-check-list .jt-icon { top: 5rem; }
+html[lang="ko-KR"] .product-single__proven-column-content > li:before { top: 11rem; }
+html[lang="ko-KR"] .ingredients-detail-process__title span[lang="en"] { font-family: var(--font-primary); font-weight: 400; }
+html[lang="ko-KR"] .product-single__ritual-name > span:not([lang="en"]) { font-weight: 400; -webkit-text-stroke: 1px rgba(0,0,0,0.1); }
+html[lang="ko-KR"] .product-single__itemize-images-value ul { gap: 8rem; }
+html[lang="ko-KR"] .product-single__extend-item--ingredient p { word-break: break-all; }
+html[lang="ko-KR"].ios .product-single__component-column > * { transform: translateZ(0); -webkit-mask-image: -webkit-radial-gradient(white, black); will-change: transform; }
+
+
+
+/* **************************************** *
+* Brandstory
+* **************************************** */
+html[lang="ko-KR"] .brandstory-intro__contents { align-items: center; }
+html[lang="ko-KR"] .brandstory-to__column--to .brandstory-to__title { margin-top: 177rem; }
+html[lang="ko-KR"] .brandstory-philosophy__contents-desc { margin-top: 12rem; }
+html[lang="ko-KR"].ios .brandstory-intro__bg { transform: translateZ(0); -webkit-mask-image: -webkit-radial-gradient(white, black); will-change: transform; }
+
+
+
+/* **************************************** *
+ * Create me
+ * **************************************** */ 
+html[lang="ko-KR"] .createme-past__series .jt-accordion__head { padding-top: 52rem; padding-bottom: 48rem; }
+html[lang="ko-KR"] .createme-past__series .jt-accordion__count { top: 51rem; }
+html[lang="ko-KR"] .jt-accordion--comingsoon .jt-accordion__control { top: 53rem; }
+
+
+
+/* **************************************** *
+ * Blocks
+ * **************************************** */
+html[lang="ko-KR"] .jt-blocks > * { font-family: var(--font-tertiary); }
+html[lang="ko-KR"] .jt-blocks .wp-block-button { font-family: var(--font-tertiary); }
+html[lang="ko-KR"] .jt-blocks .wp-block-button .wp-block-button__link:after { margin-top: 0; }
+html[lang="ko-KR"] .jt-blocks .wp-block-button.is-style-outline .wp-block-button__link:after { margin-top: -1rem; }
+html[lang="ko-KR"] .jt-blocks .wp-block-image figcaption { font-family: var(--font-tertiary); }
+
+html[lang="ko-KR"] .jt-blocks .has-jt-01-font-size { line-height: var(--jt-block-lineheight-ko-01) !important; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .has-jt-02-font-size { line-height: var(--jt-block-lineheight-ko-02) !important; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .has-jt-03-font-size { line-height: var(--jt-block-lineheight-ko-03) !important; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .has-jt-04-font-size { line-height: var(--jt-block-lineheight-ko-04) !important; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .has-jt-05-font-size { line-height: var(--jt-block-lineheight-ko-05) !important; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .has-jt-06-font-size { line-height: var(--jt-block-lineheight-ko-06) !important; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .has-jt-07-font-size { line-height: var(--jt-block-lineheight-ko-07) !important; letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .has-jt-08-font-size { line-height: var(--jt-block-lineheight-ko-08) !important; letter-spacing: var(--letter-spacing-ko); }
+
+html[lang="ko-KR"] .jt-blocks h1 { font-weight: 500; line-height: var(--jt-block-lineheight-ko-01); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks h2 { font-weight: 500; line-height: var(--jt-block-lineheight-ko-02); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks h3 { font-weight: 500; line-height: var(--jt-block-lineheight-ko-03); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks h4 { font-weight: 500; line-height: var(--jt-block-lineheight-ko-04); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks h5 { font-weight: 500; line-height: var(--jt-block-lineheight-ko-05); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks h6 { font-weight: 500; line-height: var(--jt-block-lineheight-ko-06); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks p { font-family: var(--font-tertiary); line-height: var(--jt-block-lineheight-ko-07); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks ul,
+html[lang="ko-KR"] .jt-blocks ol { line-height: var(--jt-block-lineheight-ko-07); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks ul > li:before { top: 11rem; }
+html[lang="ko-KR"] .jt-blocks .wp-block-button { line-height: var(--jt-block-lineheight-ko-07); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .wp-block-quote { line-height: var(--jt-block-lineheight-ko-07); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .wp-block-quote cite { font-family: var(--font-tertiary); }
+html[lang="ko-KR"] .jt-blocks .wp-block-table figcaption { font-family: var(--font-tertiary); line-height: var(--jt-block-lineheight-ko-08); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .wp-block-image figcaption { font-family: var(--font-tertiary); line-height: var(--jt-block-lineheight-ko-08); letter-spacing: var(--letter-spacing-ko); }
+html[lang="ko-KR"] .jt-blocks .wp-block-embed figcaption { font-family: var(--font-tertiary); line-height: var(--jt-block-lineheight-ko-08); letter-spacing: var(--letter-spacing-ko); }
+
+
+
+/* **************************************** *
+ * RWD
+ * **************************************** */
+@media (max-width: 1600px){
+
+    /* Product */
+    html[lang="ko-KR"] .product-single__proven-value-list > li:before { top: 15rem; }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li > span:after { bottom: 31rem; }
+
+    /* Brandstory */
+    html[lang="ko-KR"] .brandstory-intro__contents { align-items: flex-start; }
+
+}
+
+
+
+@media (max-width: 1480px){
+
+    /* VAR */
+    :root {
+        --font-size-ko-01: 96rem;
+        --font-size-ko-02: 80rem;
+        --font-size-ko-03: 70rem;
+        --font-size-ko-04: 58rem;
+        --font-size-ko-05: 48rem;
+        --font-size-ko-06: 38rem;
+        --font-size-ko-07: 28rem;
+        --font-size-ko-08: 24rem;
+
+        --font-lineheight-ko-01: 108rem;
+        --font-lineheight-ko-02: 96rem;
+        --font-lineheight-ko-03: 86rem;
+        --font-lineheight-ko-04: 70rem;
+        --font-lineheight-ko-05: 58rem;
+        --font-lineheight-ko-06: 48rem;
+        --font-lineheight-ko-07: 38rem;
+        --font-lineheight-ko-08: 34rem;
+    }
+
+    /* Main */
+    html[lang="ko-KR"] .main-best__new-subtitle { margin-bottom: 18rem; }
+    html[lang="ko-KR"] .main-ingredient__title--highlight > i { bottom: 16rem; }
+
+    /* Product */
+    html[lang="ko-KR"] .product-single__itemize-images-key-list li { white-space: nowrap; }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list li:not([lang="en"]) { font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li > span:after { bottom: 17rem; }
+    html[lang="ko-KR"] .product-single__half-data-type p:not([lang="en"]) { font-size: var(--font-size-ko-13); line-height: var(--font-lineheight-ko-13); }
+
+    /* Blocks */
+    html[lang="ko-KR"] .jt-blocks ul > li:before { top: 11rem; }
+}
+
+
+
+@media (max-width: 1200px){
+
+    /* JT strap */
+    html[lang="ko-KR"] .jt-btn__basic.jt-btn--small > .jt-icon { margin-top: 6rem; }
+    html[lang="ko-KR"] .jt-btn__basic.jt-btn--medium:not([lang="en"]) > .jt-icon { margin-top: 9rem; }
+    html[lang="ko-KR"] .jt-category-nav ul > li a:not([lang="en"]) { padding: 8rem 26rem 7rem; }
+
+    /* Layout */
+    html[lang="ko-KR"] .sub-menu-banner__title:not([lang="en"]) { font-size: var(--font-size-14); line-height: var(--font-lineheight-14); }
+    html[lang="ko-KR"] .sub-menu-banner__btn:not([lang="en"]) { margin-top: 0; font-size: 11rem; line-height: 16rem; }
+
+    /* Main */
+    html[lang="ko-KR"] .main-ingredient__slider-index-title:after { top: -6rem; }
+    html[lang="ko-KR"] .main-skincare__content .jt-btn__basic { margin-top: 27rem; }
+
+    /* Product */
+    html[lang="ko-KR"] .product-single__diagram .product-single__component-title { margin-bottom: 60rem; }
+    html[lang="ko-KR"] .product-single__diagram-caption { margin-top: 60rem; }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li > span:after { bottom: 21rem; }
+    html[lang="ko-KR"] .product-single__component-title h2:not([lang="en"]) { font-size: var(--font-size-ko-04); line-height: var(--font-lineheight-ko-04); }
+
+    /* Ingredient */
+    html[lang="ko-KR"] .ingredients-detail-topography__desc { text-wrap: balance; }
+}
+
+
+
+@media (max-width: 1023px){
+
+    /* VAR */
+    :root {
+        --font-size-ko-01: 70rem;
+        --font-size-ko-02: 64rem;
+        --font-size-ko-03: 50rem;
+        --font-size-ko-04: 42rem;
+        --font-size-ko-05: 36rem;
+        --font-size-ko-06: 29rem;
+        --font-size-ko-07: 24rem;
+        --font-size-ko-08: 20rem;
+        --font-size-ko-09: 56rem;
+        --font-size-ko-10: 32rem;
+        --font-size-ko-11: 24rem;
+        --font-size-ko-12: 24rem;
+        --font-size-ko-13: 20rem;
+        --font-size-ko-14: 17rem;
+        --font-size-ko-15: 15rem;
+        --font-size-ko-16: 14rem;
+
+        --font-lineheight-ko-01: 92rem;
+        --font-lineheight-ko-02: 86rem;
+        --font-lineheight-ko-03: 70rem;
+        --font-lineheight-ko-04: 62rem;
+        --font-lineheight-ko-05: 50rem;
+        --font-lineheight-ko-06: 43rem;
+        --font-lineheight-ko-07: 36rem;
+        --font-lineheight-ko-08: 28rem;
+        --font-lineheight-ko-09: 74rem;
+        --font-lineheight-ko-10: 50rem;
+        --font-lineheight-ko-11: 36rem;
+        --font-lineheight-ko-12: 36rem;
+        --font-lineheight-ko-13: 32rem;
+        --font-lineheight-ko-14: 28rem;
+        --font-lineheight-ko-15: 26rem;
+        --font-lineheight-ko-16: 24rem;
+    }
+    
+    /* JT strap */
+    html[lang="ko-KR"] .jt-btn__basic > .jt-icon { margin-top: 11rem; }
+    html[lang="ko-KR"] .jt-btn__basic.jt-btn--small > .jt-icon { margin-top: 5rem; }
+
+    html[lang="ko-KR"] .jt-category-nav ul > li a:not([lang="en"]) { padding: 6rem 22rem 5rem; }
+
+    /* Layout */
+    html[lang="ko-KR"] #small-menu li.menu-item--product ul.sub-menu .sub-menu__depth a { font-family: var(--font-tertiary); }
+    html[lang="ko-KR"] .sub-menu-banner__title:not([lang="en"]) { font-size: var(--font-size-05); line-height: var(--font-lineheight-05); }
+    html[lang="ko-KR"] .sub-menu-banner__btn:not([lang="en"]) { margin-top: 11rem; font-size: var(--font-size-15); line-height: var(--font-lineheight-15); }
+
+    /* Main */
+    html[lang="ko-KR"] .main-best__new-subtitle { margin-bottom: 8rem; }
+    html[lang="ko-KR"] .main-ingredient__title--highlight > i { bottom: 13rem; height: 34rem; }
+    html[lang="ko-KR"] .main-ingredient__slider-index-title:after { top: -3rem; margin-left: 14rem; }
+    html[lang="ko-KR"] .main-line__banner-desc { margin-top: 12rem; }
+    html[lang="ko-KR"] .main-line__banner-content .jt-btn__basic { margin-top: 36rem; }
+    html[lang="ko-KR"] .main-skincare__content-desc { text-wrap: balance; }
+    
+    /* Product */
+    html[lang="ko-KR"] .product-single__proven-check-list .jt-icon { top: 5rem; }
+    html[lang="ko-KR"] .product-single__proven-value-list > li:before { top: 13rem; }
+    html[lang="ko-KR"] .product-single__proven-subtitle.jt-typo--10 { font-size: var(--font-size-ko-11); line-height: var(--font-lineheight-ko-11); }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li > span:after { bottom: 16rem; }
+    html[lang="ko-KR"] .product-single__itemize-images-value ul > li:before { top: 15rem; }
+    html[lang="ko-KR"] .product-single__component-title h2:not([lang="en"]) { font-size: var(--font-size-ko-03); line-height: var(--font-lineheight-ko-03); }
+    html[lang="ko-KR"] .product-single__half-data-type > li > b { width: 170rem; }
+    html[lang="ko-KR"] .product-single__ritual-list { height: 460rem; }
+
+    /* Create me */
+    html[lang="ko-KR"] .createme-past__series .jt-accordion__head { padding-top: 42rem; padding-bottom: 38rem; }
+    html[lang="ko-KR"] .createme-past__series .jt-accordion__count { top: 47rem; }
+    html[lang="ko-KR"] .jt-accordion--comingsoon .jt-accordion__control { top: 50%; }
+
+    /* Blocks */
+    html[lang="ko-KR"] .jt-blocks ul > li:before { top: 9rem; }
+}
+
+
+
+@media (max-width: 860px){
+
+    /* VAR */
+    :root {
+        --font-size-ko-01: 60rem;
+        --font-size-ko-02: 54rem;
+        --font-size-ko-03: 42rem;
+        --font-size-ko-04: 36rem;
+        --font-size-ko-05: 32rem;
+        --font-size-ko-06: 28rem;
+        --font-size-ko-13: 18rem;
+
+        --font-lineheight-ko-01: 74rem;
+        --font-lineheight-ko-02: 68rem;
+        --font-lineheight-ko-03: 52rem;
+        --font-lineheight-ko-04: 46rem;
+        --font-lineheight-ko-05: 42rem;
+        --font-lineheight-ko-06: 36rem;
+        --font-lineheight-ko-13: 30rem;
+    }
+    
+    /* JT strap */
+    html[lang="ko-KR"] .jt-btn__basic > .jt-icon { margin-top: 9rem; }
+    html[lang="ko-KR"] .jt-btn__basic:before, 
+    html[lang="ko-KR"] .jt-btn__basic:after { top: -5rem; }
+    html[lang="ko-KR"] .jt-btn__basic.jt-btn--medium:not([lang="en"]) > .jt-icon { margin-top: 5rem; }
+    html[lang="ko-KR"] .jt-btn__basic.jt-btn--small > .jt-icon { margin-top: 5rem; }
+
+    /* Main */
+    html[lang="ko-KR"] .main-ingredient__title--highlight > i { bottom: 12rem; height: 28rem; }
+    html[lang="ko-KR"] .main-line__banner-desc { margin-top: 12rem; }
+    html[lang="ko-KR"] .main-line__banner-content .jt-btn__basic { margin-top: 24rem; }
+    html[lang="ko-KR"] .main-skincare__content .jt-btn__basic { margin-top: 24rem; }
+    html[lang="ko-KR"].ios .main-ingredient__colgroup > * { border-radius: 8rem }
+    html[lang="ko-KR"].ios .main-ingredient__pop-btn { border-radius: 50%; }
+    html[lang="ko-KR"].ios .main-ingredient__colgroup--active .main-ingredient__pop-btn { transform: rotate(45deg) translateZ(0); }
+
+    /* Product */
+    html[lang="ko-KR"] .product-single__basic h1:not([lang="en"]) { font-size: var(--font-size-ko-03); line-height: var(--font-lineheight-ko-03); }
+    html[lang="ko-KR"] .product-single__features-txt > li:nth-child(1) { margin-top: 0rem; }
+    html[lang="ko-KR"] .product-single__features-txt > li:nth-child(2) { margin-top: 0rem; }
+    html[lang="ko-KR"] .product-single__features-txt > li:nth-child(3) { margin-top: 0rem; }
+    html[lang="ko-KR"] .product-single__diagram-check-list .jt-icon { top: 2rem; }
+    html[lang="ko-KR"] .product-single__diagram-caption { margin-top: 40rem; }
+    html[lang="ko-KR"] .product-single__diagram-circle-inner--no-desc > b.jt-typo--07:not([lang="en"]) { font-size: var(--font-size-ko-06); line-height: var(--font-lineheight-ko-06); }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li:not([lang="en"]) { font-size: var(--font-size-ko-02); line-height: var(--font-lineheight-ko-02); }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li > span:after { bottom: 26rem; }
+    html[lang="ko-KR"] .product-single__proven-title.jt-typo--03 { font-size: var(--font-size-ko-04); line-height: var(--font-lineheight-ko-04); }
+    html[lang="ko-KR"] .product-single__proven-value-list > li:before { top: 14rem; }
+    html[lang="ko-KR"] .product-single__ritual-list { height: 500rem; }
+    html[lang="ko-KR"].ios .product-single__component-column { transform: translateZ(0); -webkit-mask-image: -webkit-radial-gradient(white, black); will-change: transform; }
+
+    /* Ingredient */
+    html[lang="ko-KR"] .ingredients-detail-colgroup__desc { padding: 0 70rem; }
+    html[lang="ko-KR"] .ingredients-tutorial__close > span:after { bottom: -1rem; }
+
+    /* Create me */
+    html[lang="ko-KR"] .createme-past__series .jt-accordion__head { padding-top: 32rem; padding-bottom: 28rem; }
+    html[lang="ko-KR"] .createme-past__series .jt-accordion__count { top: auto; margin-bottom: 4rem; }
+
+    /* Blocks */
+    html[lang="ko-KR"] .jt-blocks .wp-block-button .wp-block-button__link:after { margin-top: -1rem; }
+    html[lang="ko-KR"].ios .jt-blocks .wp-block-button .wp-block-button__link:after { margin-top: 0rem; }
+}
+
+
+
+@media (max-width: 540px){
+
+    /* VAR */
+    :root {
+        --font-size-ko-01: 54rem;
+        --font-size-ko-02: 40rem;
+        --font-size-ko-03: 34rem;
+        --font-size-ko-04: 30rem;
+        --font-size-ko-05: 25rem;
+        --font-size-ko-06: 22rem;
+        --font-size-ko-07: 18rem;
+        --font-size-ko-08: 18rem;
+        --font-size-ko-09: 38rem;
+        --font-size-ko-10: 24rem;
+        --font-size-ko-11: 18rem;
+        --font-size-ko-12: 18rem;
+        --font-size-ko-13: 16rem;
+        --font-size-ko-14: 15rem;
+        --font-size-ko-15: 15rem;
+        --font-size-ko-16: 13rem;
+        --font-size-ko-17: 12rem;
+
+        --font-lineheight-ko-01: 68rem;
+        --font-lineheight-ko-02: 52rem;
+        --font-lineheight-ko-03: 45rem;
+        --font-lineheight-ko-04: 40rem;
+        --font-lineheight-ko-05: 34rem;
+        --font-lineheight-ko-06: 30rem;
+        --font-lineheight-ko-07: 26rem;
+        --font-lineheight-ko-08: 26rem;
+        --font-lineheight-ko-09: 50rem;
+        --font-lineheight-ko-10: 34rem;
+        --font-lineheight-ko-11: 26rem;
+        --font-lineheight-ko-12: 26rem;
+        --font-lineheight-ko-13: 24rem;
+        --font-lineheight-ko-14: 23rem;
+        --font-lineheight-ko-15: 23rem;
+        --font-lineheight-ko-16: 19rem;
+        --font-lineheight-ko-17: 18rem;  
+    }
+
+    /* JT strap */
+    html[lang="ko-KR"] .jt-btn__basic > .jt-icon { margin-top: 6rem; margin-left: 10rem; }
+    html[lang="ko-KR"] .jt-btn__basic > span { white-space: nowrap; }
+    html[lang="ko-KR"] .jt-btn__basic:not([lang="en"]) { font-size: var(--font-size-ko-06); line-height: var(--font-lineheight-ko-06); }
+    html[lang="ko-KR"] .jt-btn__basic.jt-btn--simple .jt-btn__simple-circle { margin-top: 3rem; }
+    html[lang="ko-KR"] .jt-category-nav ul > li a:not([lang="en"]) { padding: 5rem 21rem 4rem; }
+    html[lang="ko-KR"] .jt-single__title.jt-typo--05 { font-size: var(--font-size-ko-04); line-height: var(--font-lineheight-ko-04); }
+
+    /* Main */
+    html[lang="ko-KR"] .main-ingredient__title-item:last-child { margin-left: 0; }
+    html[lang="ko-KR"] .main-ingredient__title--highlight > i { bottom: 8rem; height: 24rem; }
+    html[lang="ko-KR"] .main-skincare__content .jt-btn__basic { margin-top: 16rem; }
+
+    /* Product */
+    html[lang="ko-KR"].ios .product-list__sorting { top: -14rem; }
+    html[lang="ko-KR"] .product-list-banner__title.jt-typo--04 { font-size: var(--font-size-ko-06); line-height: var(--font-lineheight-ko-06); }
+    
+    html[lang="ko-KR"] .product-single__component-title h2:not([lang="en"]) { font-size: var(--font-size-ko-04); line-height: var(--font-lineheight-ko-04); }
+
+    html[lang="ko-KR"] .product-single__diagram .product-single__component-title { margin-bottom: 40rem; }
+    html[lang="ko-KR"] .product-single__diagram-point > li > p:not([lang="en"]) { left: 50%; transform: translateX(-50%); width: 100%; }
+    html[lang="ko-KR"] .product-single__diagram-point > li > p br.smbr { display: block; }
+    html[lang="ko-KR"] .product-single__diagram-caption.jt-typo--15 { font-size: var(--font-size-ko-17); line-height: var(--font-lineheight-ko-17); }
+    html[lang="ko-KR"] .product-single__diagram-check-list p.jt-typo--14 { font-size: var(--font-size-ko-17); line-height: var(--font-lineheight-ko-17); }
+
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li:not([lang="en"]) { font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); }
+    html[lang="ko-KR"] .product-single__itemize-images-key-list > li > span:after { bottom: 12rem; }
+    html[lang="ko-KR"] .product-single__itemize-images-value ul > li:before { top: 12rem; }
+    html[lang="ko-KR"] .product-single__itemize-images-value p.jt-typo--15:not([lang="en"]) { font-size: 13rem; line-height: 21rem; font-weight: 400; }
+    html[lang="ko-KR"].ios .product-single__itemize-images-value ul > li:before { top: 11rem; }
+
+    html[lang="ko-KR"] .product-single__half-data-type > li > b { width: 100%; }
+
+    html[lang="ko-KR"] .product-single__proven-title-group h3.jt-typo--04 { font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); }
+    html[lang="ko-KR"] .product-single__proven-title.jt-typo--03 { font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); }
+    html[lang="ko-KR"] .product-single__proven-title.jt-typo--04 { font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); }
+    html[lang="ko-KR"] .product-single__proven-check-list .jt-icon { top: 2rem; }
+    html[lang="ko-KR"] .product-single__proven-check-list p.jt-typo--14 { font-size: var(--font-size-ko-17); line-height: var(--font-lineheight-ko-17); }
+    html[lang="ko-KR"] .product-single__proven-value-list > li:before { top: 11rem; }
+    html[lang="ko-KR"] .product-single__proven-column-content > li.jt-typo--14 { font-size: 11rem; line-height: 15rem; }
+    html[lang="ko-KR"] .product-single__proven-column-content > li:before { top: 6rem; }
+    html[lang="ko-KR"] .product-single__proven-caption.jt-typo--15 { font-size: var(--font-size-ko-17); line-height: var(--font-lineheight-ko-17); }
+
+    html[lang="ko-KR"] .product-single__ritual-list { height: 483rem; }
+
+    html[lang="ko-KR"] .product-single__horiz-caption.jt-typo--15 { font-size: var(--font-size-ko-17); line-height: var(--font-lineheight-ko-17); }
+
+    html[lang="ko-KR"] .product-single__icon-banner > b { font-size: var(--font-size-ko-06); line-height: var(--font-lineheight-ko-06); }
+    html[lang="ko-KR"] .product-single__icon-banner > p.jt-typo--15 { font-size: var(--font-size-ko-17); line-height: var(--font-lineheight-ko-17); }
+
+    html[lang="ko-KR"] .product-single__txt-banner h2.jt-typo--04 { font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); }
+
+    html[lang="ko-KR"] .product-single__img-banner-content h2.jt-typo--04 { font-size: var(--font-size-ko-05); line-height: var(--font-lineheight-ko-05); }
+
+    /* Ingredient */
+    html[lang="ko-KR"] .ingredients-detail-colgroup__desc { padding: 0 20rem; }
+    html[lang="ko-KR"] .ingredients-detail-topography__title.jt-typo--03 { font-size: var(--font-size-ko-04); line-height: var(--font-lineheight-ko-04); }
+    html[lang="ko-KR"] .ingredients-map__location-item--cheongdo .ingredients-map__location-desc br { display: block; }
+
+    /* Create me */
+    html[lang="ko-KR"] .createme-past__series .jt-accordion__head { padding-top: 24rem; padding-bottom: 24rem; }
+}

@@ -1,0 +1,762 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-30 12:31+0900\n"
+"PO-Revision-Date: 2025-04-30 12:36+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+
+#: 404.php:7
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:8
+msgid "Sorry, the page could not be found. <br />You have entered an address that does not exist or the address on the requested <br />page has been changed and deleted and cannot be found."
+msgstr "죄송합니다. 페이지를 찾을 수 없습니다. <br />존재하지 않는 주소를 입력하셨거나, <br />요청하신 페이지의 주소가 변경, 삭제되어 찾을 수 없습니다."
+
+#: 404.php:12 header.php:56
+msgid "Go home"
+msgstr ""
+
+#: footer.php:12
+msgid "Purito Seoul is a contemporary Korean <br />brand that draws inspiration from <br />Korean ingredients and culture."
+msgstr "퓨리토 서울은 한국의 원료와 문화에서 <br />영감을 받아 즐거운 감각적 경험을 만드는 <br />한국의 컨템포러리 스킨케어 브랜드입니다."
+
+#: footer.php:55
+msgid "Open tiktok"
+msgstr "틱톡으로 열기"
+
+#: footer.php:61
+msgid "Open instagram"
+msgstr "인스타그램으로 열기"
+
+#: footer.php:67
+msgid "Open youtube"
+msgstr "유튜브로 열기"
+
+#: footer.php:79
+msgid "&copy; 2024 Purito. All rights reserved."
+msgstr ""
+
+#: functions.php:149
+msgid "메인메뉴"
+msgstr ""
+
+#: functions.php:150
+msgid "사이드메뉴"
+msgstr ""
+
+#: functions.php:151
+msgid "푸터메뉴"
+msgstr ""
+
+#: functions.php:152
+msgid "모바일메뉴"
+msgstr ""
+
+#: header.php:87 header.php:147 index.php:125 modules/product/single.php:168
+#: modules/product/single.php:1551 modules/series/list.php:28
+msgid "Shop Now"
+msgstr ""
+
+#: header.php:108
+msgid "Search Open"
+msgstr "검색창 열기"
+
+#: header.php:119
+msgid "Eng"
+msgstr ""
+
+#: header.php:120
+msgid "Kor"
+msgstr ""
+
+#: header.php:146
+msgid "10-Second Rapid Soothing"
+msgstr "10초 급속 진정"
+
+#: header.php:159
+msgid "Close"
+msgstr "닫기"
+
+#: header.php:171
+msgid "Suggestions"
+msgstr "추천 키워드"
+
+#: header.php:180 search.php:179
+msgid "Recommended Products"
+msgstr "추천 제품"
+
+#: header.php:208 index.php:162 index.php:422 modules/ingredient/single.php:196
+#: sub/create-me.php:153
+msgid "PREV"
+msgstr "이전"
+
+#: header.php:213 index.php:167 index.php:426 modules/ingredient/single.php:201
+#: sub/create-me.php:158
+msgid "NEXT"
+msgstr "다음"
+
+#: index.php:99
+msgid "Discover"
+msgstr ""
+
+#: index.php:108
+msgid "Discover <br />our ( Best ) Sellers"
+msgstr ""
+
+#: index.php:180
+msgid "Driven by a <br class=\"smbr\" /><span class=\"main-ingredient__title--highlight\">passion<i></i></span> for <br /><span class=\"main-ingredient__title--highlight\">exploration<i></i>"
+msgstr "대한민국에서 <br />가장 좋은 <br class=\"smbr\"><strong>천연 원료</strong>를 찾기 위한"
+
+#: index.php:185
+msgid "we search the <span class=\"main-ingredient__title--highlight\">Korean Peninsula<i></i></span> <br/><br class=\"smbr\" />for the finest natural <strong>ingredients</strong>."
+msgstr "퓨리토의 <span class=\"main-ingredient__title--highlight\">탐험<i></i></span>과 <span class=\"main-ingredient__title--highlight\">열정<i></i></span>은 <br class=\"smbr\">계속 됩니다."
+
+#: index.php:241
+msgid "Discover Ingredients"
+msgstr "더 많은 한국 원료를 만나 보세요"
+
+#: index.php:355
+msgid "Dive Deeper"
+msgstr "자세히 알아보기"
+
+#: index.php:408
+msgid "We explore the rich culture <br class=\"smbr\" />and boundless <br />creativity of Seoul, <br /><br class=\"smbr\" />where nature and urbanity <br class=\"smbr\" />thrive in harmony."
+msgstr "우리는 자연과 도시가 조화를 이루는 <br />서울의 풍부한 문화와 <br />무한한 창의성을 탐험합니다"
+
+#: index.php:412
+#| msgid "Learn more"
+msgid "Learn More"
+msgstr ""
+
+#: index.php:433
+msgid "Follow <br />our <br class=\"smbr\">Seoul-full feed"
+msgstr ""
+
+#: index.php:445
+msgid "follow us @purito_official"
+msgstr ""
+
+#: search.php:28
+msgid "reset"
+msgstr ""
+
+#: search.php:32
+msgid "search"
+msgstr ""
+
+#: search.php:62
+#, php-format
+msgid "<span>%1$s</span> Results found for “%2$s”"
+msgstr "<span>%1$s</span> 개 <span class=\"search-word\">“%2$s”</span>에 대한 검색 결과"
+
+#: search.php:63
+#, php-format
+msgid "<span>%1$s</span> Results"
+msgstr "<span>%1$s</span> 개 검색 결과"
+
+#: search.php:71 modules/product/list.php:85
+msgid "Latest"
+msgstr "최신순"
+
+#: search.php:72 modules/product/list.php:86
+msgid "Popularity"
+msgstr "인기순"
+
+#: search.php:159 modules/newspress/list.php:55
+msgid "Load more"
+msgstr ""
+
+#: search.php:172
+#, php-format
+msgid "No Results Found for <br/>“<span>%s</span>”"
+msgstr "“<span>%s</span>”에 대한 검색 결과가 없습니다."
+
+#: search.php:173
+msgid "Please try again later or enter a new search"
+msgstr "나중에 다시 시도하거나 새 검색어를 입력하세요."
+
+#: functions/login.php:83
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr ""
+
+#: functions/sns.php:47
+msgid "Share on Facebook"
+msgstr "페이스북 공유하기"
+
+#: functions/sns.php:51
+msgid "Share on X"
+msgstr "X 공유하기"
+
+#: functions/sns.php:54
+msgid "URL has been copied."
+msgstr "URL이 복사되었습니다."
+
+#: functions/sns.php:55
+msgid "Copy URL"
+msgstr "URL 복사하기"
+
+#: modules/faq/category.php:5
+msgid "All"
+msgstr "전체"
+
+#: modules/faq/list.php:16 modules/series/list.php:17
+msgid "Accordion Toggle"
+msgstr "아코디언 토글"
+
+#: modules/jt-module-template/attachments.php:4
+msgid "첨부파일"
+msgstr ""
+
+#: modules/jt-module-template/category.php:3
+msgid "All Articles"
+msgstr ""
+
+#: modules/jt-module-template/last.php:44
+#: modules/jt-module-template/list.php:34
+msgid "컨텐츠 준비중 입니다."
+msgstr ""
+
+#: modules/jt-module-template/last.php:45
+#: modules/jt-module-template/list.php:35
+#| msgid "현재 컨텐츠를 준비하고 있으니 조금만 기다려 주세요. <br />더욱 나은 모습으로 찾아뵙겠습니다."
+msgid "현재 컨텐츠를 준비하고 있으니 조금만 기다려 주세요. <br />더욱 나은 모습으로 찾아뵙겠습니다."
+msgstr ""
+
+#: modules/jt-module-template/list.php:31
+msgid "일치하는 게시물이 없습니다."
+msgstr ""
+
+#: modules/jt-module-template/list.php:32
+#, php-format
+msgid "<span>&ldquo;%s&rdquo;</span>에 대한 검색결과가 없습니다."
+msgstr ""
+
+#: modules/jt-module-template/search.php:5
+msgid "검색어를 입력해주세요."
+msgstr ""
+
+#: modules/jt-module-template/search.php:9
+msgid "검색"
+msgstr ""
+
+#: modules/jt-module-template/search.php:14
+msgid "검색어 지우기"
+msgstr ""
+
+#: modules/newspress/list.php:67 modules/product/single.php:1541
+msgid "Website is being updated."
+msgstr "웹사이트가 업데이트 중입니다."
+
+#: modules/offline/list.php:5
+msgid "Total"
+msgstr ""
+
+#: modules/offline/search.php:5
+msgid "Type a postcode or address"
+msgstr "우편번호 또는 주소 입력"
+
+#: modules/offline/search.php:9
+msgid "Search"
+msgstr "검색하기"
+
+#: modules/offline/search.php:14
+msgid "Clear"
+msgstr "삭제하기"
+
+#: modules/product/list.php:46 sub/product.php:17
+msgid "All Products"
+msgstr ""
+
+#: modules/product/list.php:46
+msgid "전 제품 보기"
+msgstr ""
+
+#: modules/product/list.php:149 modules/series/list.php:56
+msgid "More Products"
+msgstr "제품 더 보기"
+
+#: modules/product/list.php:166
+msgid "View more"
+msgstr "제품 더 보기"
+
+#: modules/product/single.php:160
+msgid "Select Color :"
+msgstr ""
+
+#: modules/product/single.php:178
+msgid "Ingredients"
+msgstr ""
+
+#: modules/product/single.php:179 modules/product/single.php:200
+#: modules/product/single.php:222
+msgid "Toggle accordion"
+msgstr "아코디언 토글"
+
+#: modules/product/single.php:199
+msgid "How To Use"
+msgstr ""
+
+#: modules/product/single.php:221
+msgid "FAQ"
+msgstr ""
+
+#: modules/product/single.php:275 modules/product/single.php:276
+msgid "Korean Green Miracle &nbsp; Korean Green Miracle &nbsp; "
+msgstr ""
+
+#: modules/product/single.php:635
+msgid "Before"
+msgstr ""
+
+#: modules/product/single.php:641
+msgid "Renewal"
+msgstr ""
+
+#: modules/product/single.php:651
+msgid "After"
+msgstr ""
+
+#: modules/product/single.php:979
+msgid "Step"
+msgstr ""
+
+#: modules/product/single.php:1186
+msgid "View Full Report"
+msgstr ""
+
+#: modules/product/single.php:1462
+msgid "Step "
+msgstr ""
+
+#: modules/product/single.php:1490
+msgid "Review"
+msgstr ""
+
+#: modules/product/single.php:1518
+msgid "Product Information"
+msgstr ""
+
+#: sub/brand-story.php:22
+msgid "Purito’s Story"
+msgstr ""
+
+#: sub/brand-story.php:24
+msgid ""
+"Purito Seoul is a contemporary Korean skincare brand that draws inspiration from Korean ingredients <br />\n"
+"                                and culture to create delightful, sensorial experiences that connect and inspire."
+msgstr "퓨리토 서울은 한국의 원료와 문화에서 영감을 받아 <br />즐거운 감각적 경험을 만드는 한국의 컨템포러리 스킨케어 브랜드입니다."
+
+#: sub/brand-story.php:75
+msgid "Touch Your ( Seoul )"
+msgstr ""
+
+#: sub/brand-story.php:76
+msgid "At Purito Seoul, we are captivated by the vibrant culture and limitless creativity that define Seoul - a city where nature and urban life coexist in perfect harmony."
+msgstr "퓨리토 서울은, 자연과 도시 생활이 완벽하게 조화를 이루는 도시인 서울을 대표하는 활기찬 문화와 무한한 창의성에 주목합니다."
+
+#: sub/brand-story.php:94 sub/brand-story.php:173
+msgid "Inspired by the Korean word 정화 - <br />\"Purification\", the \"PURI\" in our name signifies <br />our dedication to sourcing the finest, <br />pure ingredients from diverse regions of Korea."
+msgstr "한국어 단어 '정화(Purification)'에서 영감을 받아, <br />우리 이름의 'Puri'는 한국의 다양한 지역에서 <br />가장 순수하고 훌륭한 성분을 찾는데 대한 <br />우리의 노력을 의미합니다."
+
+#: sub/brand-story.php:119 sub/brand-story.php:183
+msgid "The \t&#39;To (土)&#39; in PURITO is derived from the Chinese <br />character for \"Earth or Soil,\" <br />symbolizing our deep-rooted connection to <br />the planet Earth and its community."
+msgstr "퓨리토의 &#39;토(土)&#39;는 한자 '땅'에서 유래되었으며, <br />이는 우리가 지구와 그 커뮤니티에 <br />깊이 뿌리내린 연결을 상징합니다."
+
+#: sub/brand-story.php:197
+msgid "Our Core Values"
+msgstr "우리의 철학"
+
+#: sub/brand-story.php:202
+msgid "Explorative"
+msgstr "탐험적"
+
+#: sub/brand-story.php:204
+msgid "Driven by a passion for exploration, we scout the Korean Peninsula for exceptional  natural ingredients. Our products blend natural Korean goodness with clinically proven actives, creating safe, effective skincare solutions for all."
+msgstr "한국의 구석구석을 누비며 탁월한 천연 성분을 찾아냅니다. 우리의 제품은 한국의 우수한 천연 성분과 임상적으로 입증된 활성 성분을 결합하여 모두를 위한 안전하고 효과적인 스킨케어 솔루션을 제공합니다."
+
+#: sub/brand-story.php:208
+msgid "Explore our Korean ingredients"
+msgstr "우리의 한국 원료 살펴보기"
+
+#: sub/brand-story.php:226
+msgid "Sensorial"
+msgstr "감각적"
+
+#: sub/brand-story.php:228
+msgid "Meticulously crafted, our skincare products are designed to deliver not only exceptional results but also a delightful and exciting sensorial experience."
+msgstr "세심하게 제작된 우리의 스킨케어 제품은 뛰어난 결과 뿐만 아니라 즐거운 감각적 경험도 전달하도록 설계되었습니다."
+
+#: sub/brand-story.php:242
+msgid "Simplicity"
+msgstr "단순함"
+
+#: sub/brand-story.php:244
+msgid "Our formulations are carefully crafted, using only the most essential of ingredients. By embracing simplicity, we elevate the skincare experience, making it accessible, effective, and a daily delight."
+msgstr "우리의 제조 공정은 신중하게 진행되며, 가장 필수적인 성분들만을 사용합니다. 단순함을 통해, 우리는 스킨케어 경험을 향상시키고, 이를 접근하기 쉽고 효과적이며 일상적인 즐거움으로 만듭니다."
+
+#: sub/brand-story.php:258
+msgid "Community-centric"
+msgstr "커뮤니티 중심"
+
+#: sub/brand-story.php:260
+msgid "We actively engage with our community, valuing their voices and empowering collaboration."
+msgstr "우리는 적극적으로 커뮤니티와 소통하며, 그들의 목소리를 소중히 여기고 협력을 강화합니다."
+
+#: sub/brand-story.php:274
+msgid "Eco-ethical"
+msgstr "환경 윤리적"
+
+#: sub/brand-story.php:276
+msgid "Receiving our philosophy and ingredients from the Earth, we incorporate ethical and eco-conscious practices in our product development."
+msgstr "우리의 철학과 성분에서 가장 중요하게 생각하는 부분은 지구와 환경이며, 우리는 제품 개발에 윤리적이고 환경적인 실천을 하고자 노력합니다."
+
+#: sub/contact-us.php:16
+msgid "Get In Touch <br />With Us"
+msgstr ""
+
+#: sub/contact-us.php:18
+msgid "Contact us or visit us"
+msgstr ""
+
+#: sub/contact-us.php:62
+msgid "Learn more"
+msgstr ""
+
+#: sub/contact-us.php:70
+msgid "Purito Seoul Korea Office"
+msgstr "퓨리토 서울 오피스"
+
+#: sub/contact-us.php:73
+msgid "Songdo TechnoPark IT Center S-Dong 2501~3-ho <br />Songdogwahak-ro 32 Yeonsu-gu, Incheon, Republic of Korea <br />Postal Code: 21984"
+msgstr "인천광역시 연수구 송도과학로 32 <br />송도테크노파크 IT센터 S동 2501~3호 <br />우편번호 21984"
+
+#: sub/create-me.php:23
+msgid "Purito Seoul’s <br class=\"smbr\" />Create Me"
+msgstr ""
+
+#: sub/create-me.php:24
+msgid "Create Me is a project that embodies our commitment <br /> to actively listen to our community. <br /> This project provides a unique opportunity for our cherished <br />Purito Seoul community to participate and play a key role in shaping <br />our latest skincare creations. By reflecting their diverse voices, <br />we collaborate to introduce products that are finely tailored <br />to meet your community needs."
+msgstr "'Create Me'는 고객에 적극적으로 귀 기울이는 <br class=\"smbr\" />우리의 노력을 가장 잘 나타내는 프로젝트입니다. <br class=\"smbr\" /><br />이 프로젝트는 소중한 우리의 고객이 참여하여 <br class=\"smbr\" />신제품 개발에 중요한 역할을 하는 <br class=\"smbr\" />독특한 기회를 제공합니다. <br class=\"smbr\" /><br />그들의 다양한 목소리를 반영하여, <br class=\"smbr\" />우리는 고객의 요구에 잘 맞는 제품을 <br class=\"smbr\" />소개하기 위해 협력합니다."
+
+#: sub/create-me.php:40
+msgid "How Do <br /> We Create Together?"
+msgstr "어떻게 함께 만들까요?"
+
+#: sub/create-me.php:54
+msgid "Brainstorm"
+msgstr "브레인스토밍"
+
+#: sub/create-me.php:67
+msgid "Community <br />Surveys"
+msgstr "커뮤니티 설문"
+
+#: sub/create-me.php:80
+msgid "Name &amp; <br />Packaging Voting"
+msgstr "이름 &amp; 패키지 투표"
+
+#: sub/create-me.php:93
+msgid "Sample <br />Creation"
+msgstr "샘플 만들기"
+
+#: sub/create-me.php:106
+msgid "Community <br />Sampling"
+msgstr "커뮤니티 <br />샘플 테스트"
+
+#: sub/create-me.php:119
+msgid "Evaluation &amp; <br />Refining"
+msgstr "평가 및 개선"
+
+#: sub/create-me.php:132
+msgid "Manufacturing"
+msgstr "제조"
+
+#: sub/create-me.php:145
+msgid "Product <br />Launch"
+msgstr "출시"
+
+#: sub/create-me.php:171
+msgid "Why Do We Do It?"
+msgstr "우리는 왜 이 프로젝트를 <br />진행할까요?"
+
+#: sub/create-me.php:172
+msgid "In the Purito Seoul community, <br class=\"smbr\" />our shared values guide our joint <br class=\"smbr\" />exploration <br />towards glowing beauty. <br class=\"smbr\" />With a customer-first philosophy, <br class=\"smbr\" />we create products <br />that truly <br class=\"smbr\" />resonate with your desires <br class=\"smbr\" />and needs. By joining forces <br class=\"smbr\" />with our <br />community, we create <br class=\"smbr\" />with the power of YOUR voice!"
+msgstr "당신의 목소리가 투영된 퓨리토 서울 커뮤니티에서, <br class=\"smbr\" /><br />우리가 함께 나눈 가치들이 빛나는 아름다움을 향한 <br class=\"smbr\" />멋진 여정으로 인도해줍니다. <br class=\"smbr\" /><br />고객 우선의 철학으로, 고객 커뮤니티와 힘을 합쳐, <br class=\"smbr\" /><br />우리는 당신의 요구와 필요성에 <br class=\"smbr\" />진정으로 울림을 주는 제품을 만듭니다."
+
+#: sub/create-me.php:181
+msgid "Our Past <br /> Create Me Products"
+msgstr "지금까지 탄생한 <br /> 'Create Me' 제품"
+
+#: sub/create-me.php:189
+msgid "Join the Purito Seoul Community"
+msgstr "퓨리토 서울 커뮤니티에 <br class=\"smbr\" />함께 해 주세요!"
+
+#: sub/create-me.php:190
+msgid "Follow us on social media for news about our future projects."
+msgstr "퓨리토 서울을 팔로우하고 <br class=\"smbr\" />앞으로의 프로젝트에 대한 소식을 받아보세요. "
+
+#: sub/faq.php:15
+msgid "Frequently Asked <br />Questions"
+msgstr ""
+
+#: sub/ingredients.php:20
+msgid "Natural Ingredients <br />Rooted in <br class='smbr' />Korean Nature"
+msgstr "한국 자연의 풍요로움, <br />특별한 원료로 담다"
+
+#: sub/ingredients.php:47
+msgid "Goesan County"
+msgstr "괴산"
+
+#: sub/ingredients.php:48
+msgid "A plantation where Centella thrives <br />in various climates, enduring <br />strong sunlight, rain and snow."
+msgstr "비, 햇빛, 눈 등 다양한 기후를 <br />견뎌낸 센텔라 재배지"
+
+#: sub/ingredients.php:54
+msgid "Hapcheon County"
+msgstr "합천"
+
+#: sub/ingredients.php:55
+msgid "A plantation where Centella <br />perseveres through harsh terrains."
+msgstr "험난한 한국 지형을 견뎌낸 <br />센텔라 재배지"
+
+#: sub/ingredients.php:61 sub/ingredients.php:96 sub/ingredients.php:103
+msgid "Jeju Island"
+msgstr "제주"
+
+#: sub/ingredients.php:62
+msgid "A plantation where Centella <br />grows amidst powerful wind and sea."
+msgstr "제주의 바람과 바다를 견뎌낸 <br />센텔라 재배지"
+
+#: sub/ingredients.php:68
+msgid "Gangwondo"
+msgstr "강원도"
+
+#: sub/ingredients.php:69
+msgid "The origin of nutrient-rich, <br />hydrating Deep Sea Water."
+msgstr "청정 동해 바다의 촉촉한 수분이 <br />가득한 해양심층수 취수지"
+
+#: sub/ingredients.php:75
+msgid "Gunsan"
+msgstr "군산"
+
+#: sub/ingredients.php:76
+msgid "Nutrient-rich coastal soil, ideal for <br />cultivating soothing and moisturizing Oats."
+msgstr "보습과 진정 효능이 뛰어난 귀리 성장에 <br /.>최적화된 지역"
+
+#: sub/ingredients.php:82
+msgid "Damyang"
+msgstr "담양"
+
+#: sub/ingredients.php:83
+msgid "A lush Bamboo forest where skin barrier-<br />strengthening Bamboo is harvested."
+msgstr "피부 장벽을 튼튼하게 지켜주는 <br />대나무 재배지"
+
+#: sub/ingredients.php:89
+msgid "Cheongdo Hanjae"
+msgstr "청도 한재"
+
+#: sub/ingredients.php:90
+msgid "Home of Minari, a skin vitality <br class=\"smbr\" />supporter, <br />nestled between <br class=\"smbr\" />sunlit mountains."
+msgstr "광노화를 방지하는 <br />고품질 미나리 재배지"
+
+#: sub/ingredients.php:97
+msgid "An island adorned with fields of Hydrangea, <br />the secret to wrinkle-free and elastic skin."
+msgstr "주름과 피부 탄력의 비밀이 담긴 <br />수국 재배지"
+
+#: sub/ingredients.php:104
+msgid "An island dotted with skin-rejuvenating <br />starflowers that resemble the night sky."
+msgstr "빛나는 광채 보습을 선사하는 <br />별꽃 재배지"
+
+#: sub/ingredients.php:127
+msgid "Powerful Soothing"
+msgstr "진정한 &#39;진정&#39;을 위한"
+
+#: sub/ingredients.php:129
+msgid "Korean Centella Asiatica"
+msgstr "센텔라"
+
+#: sub/ingredients.php:148
+msgid "Intensely Hydrating"
+msgstr "미네랄과 수분을 가득 담은"
+
+#: sub/ingredients.php:150
+msgid "Deep Sea Water"
+msgstr "해양심층수"
+
+#: sub/ingredients.php:169
+msgid "A Time-Honored Skincare Grain"
+msgstr "수천 년 동안 피부 진정을 도운"
+
+#: sub/ingredients.php:171
+msgid "Oat"
+msgstr "귀리"
+
+#: sub/ingredients.php:190
+msgid "Skin Barrier Strengthening"
+msgstr "피부 장벽을 강화하는 비결"
+
+#: sub/ingredients.php:192
+msgid "Bamboo"
+msgstr "대나무"
+
+#: sub/ingredients.php:211
+msgid "Vitalizing UV defender"
+msgstr "자외선으로부터 피부를 지키는"
+
+#: sub/ingredients.php:213
+msgid "Minari"
+msgstr "미나리"
+
+#: sub/ingredients.php:232
+msgid "Elasticity Enhancement"
+msgstr "생기 넘치는 탄력을 위한"
+
+#: sub/ingredients.php:234
+msgid "Hydrangea"
+msgstr "수국"
+
+#: sub/ingredients.php:253
+msgid "Skin brightening moisture"
+msgstr "별빛을 담아낸 듯한 보습"
+
+#: sub/ingredients.php:255
+msgid "Starflower"
+msgstr "별꽃"
+
+#: sub/ingredients.php:292
+msgid "Our journey at Purito Seoul is a never ending exploration, <br />uncovering the secrets of Korean natural ingredients."
+msgstr "퓨리토 서울(Purito Seoul)과 함께 하는 여정, <br />한국 자연의 비밀을 풀어가는 끝 없는 모험"
+
+#: sub/ingredients.php:307
+msgid "Scroll through and experience <br />Purito&#39;s journey."
+msgstr "스크롤을 통해 퓨리토의 여정을 <br />경험해 보세요."
+
+#: sub/ingredients.php:308
+msgid "OK, I got it"
+msgstr "네, 사용법 이해했어요"
+
+#: sub/product.php:16
+msgid "Product"
+msgstr "제품"
+
+#: sub/stores-offline.php:14 sub/stores-online.php:19
+msgid "Stores"
+msgstr ""
+
+#: sub/stores-offline.php:15 sub/stores-online.php:20
+msgid "Purito Seoul products can be purchased anywhere across <br />the world through any of our international partners."
+msgstr "퓨리토 서울 제품은 해외 파트너를 통해 <br />전 세계 어디에서나 구매할 수 있습니다."
+
+#: sub/stores-offline.php:22 sub/stores-online.php:27
+msgid "Online"
+msgstr ""
+
+#: sub/stores-offline.php:23 sub/stores-online.php:28
+msgid "Offline"
+msgstr ""
+
+#~ msgid "Shop the Wonder Releaf &nbsp;Line"
+#~ msgstr "원더 릴리프 라인 쇼핑하기"
+
+#~ msgid "Load more products"
+#~ msgstr "제품 더 보기"
+
+#~ msgid "Share on Kakaotalk"
+#~ msgstr "카카오톡 공유하기"
+
+#~ msgid "Share on Pinterest"
+#~ msgstr "핀터레스트 공유하기"
+
+#~ msgid "Skin-Soothing Holy Grail Centella Serum, Returns Stronger Than Ever"
+#~ msgstr "한층 더 강력해진 <br class=\"smbr\" />센텔라 성분으로 <br class=\"smbr\" /><br />돌아온 진정 세럼"
+
+#~ msgid "Supercharged with more Centella actives for a faster and more potent soothing effect."
+#~ msgstr "센텔라에 센텔라를 더해 더욱 빠르고 확실한 진정 효과 UP ↑"
+
+#~ msgid "Low-temperature <br />Extraction"
+#~ msgstr "저온 용출법"
+
+#~ msgid "<em>Minimizes the loss of <br />active ingredients</em> <br />for maximum effectiveness."
+#~ msgstr "핵심 성분의 효능을 <br class=\"smbr\" /><br />오롯이 담아내기 위하여 <br class=\"smbr\" /><br /><em>손실 최소화</em> 용출법"
+
+#~ msgid "This Centella Asiatica <br />derivative is nanoized to <em>ensure <br />optimal skin delivery of active <br />ingredients</em> for enhanced efficacy."
+#~ msgstr "진정에 효과적인 <br class=\"smbr\" /><br />병풀 캘러스를 나노화하여 <br class=\"smbr\" /><br />유효성분을 <em>최적의 장소로 전달</em>"
+
+#~ msgid "Titrated Extract of Centella Asiatica"
+#~ msgstr "(센텔라 정량추출물) "
+
+#~ msgid "<em>Ultra-pure Centella Asiatica <br />extract</em> enriched with <br />4 types of Centella actives."
+#~ msgstr "센텔라 4가지 핵심 성분의 <br class=\"smbr\" /><br />손실 최소화를 위한 <br class=\"smbr\" /><br /><em>고순도 파우더</em>"
+
+#~ msgid "*The above description is limited to raw material characteristics."
+#~ msgstr "※ 상기 설명은 원료 특성에 한함"
+
+#~ msgid "Recycle according to local regulations."
+#~ msgstr "재활용 분리배출 규정에 맞춰 버려주세요."
+
+#~ msgid "*Purito Seoul uses eco-friendly recycled plastic."
+#~ msgstr "퓨리토는 지속 가능성을 추구하며 친환경 재활용 플라스틱을 사용합니다."
+
+#~ msgid "Centella Asiatica"
+#~ msgstr "센텔라"
+
+#~ msgid "Rapid Soothing <br />Relief"
+#~ msgstr "진정"
+
+#~ msgid "Known for its remarkable soothing benefits, <br />Centella has traditionally been used in Korea <br />for wound recovery. Korean Centella soothes <br />the skin with a powerful calming effect and <br />addresses various skin problems."
+#~ msgstr "한국의 전통 약초로 전해져 내려온 센텔라는 <br />Wonder[기적, 경이로운] 진정 효과로 유명합니다. <br />이러한 특성을 바탕으로 K-센텔라는 강력한 <br />진정 효과로 피부를 진정시키고 다양한 피부 문제를 해결해줍니다."
+
+#~ msgid "4 Seasons of"
+#~ msgstr "사계절을 이겨낸 강인한"
+
+#~ msgid "Centella <br />Asiatica"
+#~ msgstr "센텔라"
+
+#~ msgid "Thriving in four seasons, Korean Centella <br />brings stronger calming benefits. Enduring <br />the Korean winter boosts the plant&#39;s active <br />compounds, making its soothing effect even <br />more powerful."
+#~ msgstr "한국의 센텔라는 혹독한 겨울을 견뎌내며 겉잎이 <br />안쪽 잎을 지켜냅니다. 그리고 봄이 다시 찾아오면 <br />새로운 생명력으로 다시 피어나는데, <br />이 지속적인 변화와 활력은 한국 센텔라를 <br />Wonder[기적, 경이로운] 진정 효과를 가진 원료로 만들어냅니다."
+
+#~ msgid "Harvested from <br />( Pristine Terrains )"
+#~ msgstr "다채로운 한국 지형의 <br />프리미엄 센텔라"
+
+#~ msgid "As we scoured diverse terrains across Korea, <br />from lush forests to towering mountains, we handpick the finest Centella, <br />curating it to complement each product&#39;s unique functions. <br />Every terrain provides the plant with distinct qualities shaped <br />by factors such as soil composition, climate, and local cultivation methods."
+#~ msgstr "센텔라는 한국의 자연에서 자란 풍부한 역사를 자랑합니다. 산, 계곡, 숲 등 다양한 지역을 탐험하여 선별된 한국 센텔라는 지형의 다양한 영향을 받아 특별한 매력을 더합니다. 전국의 풍요로운 지형에서 만들어지는 최상의 품질과 독보적인 프리미엄 센텔라를 선보입니다."
+
+#~ msgid "Harnessing <br />Centella’s Pure Power"
+#~ msgstr "극대화 된 <br />센텔라 Pure Power"
+
+#~ msgid "When extracting natural ingredients, it is important to preserve as many active <br />ingredients as possible. By using our low-temperature extraction method, <br />we are able retain a greater percentage of Centella&#39;s active ingredients, <br />such as antioxidant flavonoids, enhancing its stability and unleashing its full soothing power."
+#~ msgstr "자연 원료 추출과정에서 핵심은 활성 성분을 최대한 보존하는 것입니다. 저온 추출 방식을 통해 센텔라의 플라보노이드와 같은 활성 성분을 최대한 보존하여 안정성을 높이고 진정 효과를 극대화하고 있습니다. "
+
+#~ msgid "Growing and Harvesting <br />Centella Asiatica"
+#~ msgstr "센텔라 재배 및 수확"
+
+#~ msgid "Low-Temperature Extraction"
+#~ msgstr "저온 용출법"
+
+#~ msgid "Korean Centella Asiatica Extract"
+#~ msgstr "한국 센텔라"
+
+#~ msgid "*This description is limited to PURITO Wonder Releaf Centella Serum and PURITO Wonder <br />Releaf Centella Serum Unscented."
+#~ msgstr "*이 설명은 PURITO 원더 릴리프 센텔라 세럼 및 PURITO 원더 릴리프 센텔라 세럼 언센티드에 한정됩니다."
+
+#~ msgid "Home of Minari, a skin vitality supporter, <br />nestled between sunlit mountains."
+#~ msgstr "광노화를 방지하는 <br />고품질 미나리 재배지"
+
+#~ msgid "Products"
+#~ msgstr "제품"
+
+#~ msgid "Go to List"
+#~ msgstr "목록으로 가기"

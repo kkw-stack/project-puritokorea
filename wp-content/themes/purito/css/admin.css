@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*
+ * File       : admin.css
+ * Author     : STUDIO-JT (KMS)
+ *
+ * SUMMARY:
+ * CLEAN UP NOTICE
+ * CUSTOM ADMIN SKIN
+ * RWD
+ */
+
+
+
+/* **************************************** *
+ * CLEAN UP NOTICE
+ * **************************************** */
+#footer-upgrade,
+#footer-thankyou { display: none; }
+
+
+
+/* **************************************** *
+ * CUSTOM ADMIN SKIN
+ * **************************************** */
+#wp-admin-bar-my-account > .ab-item:before { content: ''; width: 14px; height: 14px; padding: 0; top: 9px; font-size: 0; background: #fff no-repeat center center; background-size: 20px; border: 1px solid #ddd; }
+
+/* MOBILE PREVIEW WIDGET */
+#jt_mobile_preview_dashboard_widget .inside { min-height: 600px; }
+.jt_mobile_preview_inner:after { pointer-events: none; background: url(../images/admin/mobile-preview.png) no-repeat center center; background-size: auto 640px; height: 600px; width: 100%; content: ""; z-index: 111; position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+.jt_mobile_preview_iframe_container { width: 100%; margin: 0 auto; height: 587px; overflow: hidden; position: relative; top: 0; left: 50%; margin-left: -135px; }
+.jt_mobile_preview_iframe_wrapper { width: 100%; height: 100%; margin-top: 52px; overflow: auto; -webkit-overflow-scrolling: touch; }
+.jt_mobile_preview_iframe_wrapper iframe { width: 503px; position: absolute; height: 1052px; top: 16px; left: 0; display: block; background: #fff; -ms-transform: scale(0.54); -webkit-transform: scale(0.54); transform: scale(0.54); -ms-transform-origin: 0 0; -webkit-transform-origin: 0 0; transform-origin: 0 0; }
+
+
+
+/* **************************************** *
+ * RWD
+ * **************************************** */
+@media (max-width: 782px) {
+
+    /* CUSTOM ADMIN SKIN */
+    #wp-admin-bar-my-account > .ab-item:before { height: auto; border: none; }
+
+}
+
+/* **************************************** *
+ * PRODUCT US TITLE HIDDEN
+ * **************************************** */
+.acf_us_title_hidden { display: none; }
